@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Content">
+    <File Path="Content\font-awesome\css\font-awesome-ie7.css" Url="Content/font-awesome/css/font-awesome-ie7.css" />
+    <File Path="Content\font-awesome\css\font-awesome-ie7.min.css" Url="Content/font-awesome/css/font-awesome-ie7.min.css" />
+    <File Path="Content\font-awesome\css\font-awesome.css" Url="Content/font-awesome/css/font-awesome.css" />
+    <File Path="Content\font-awesome\css\font-awesome.min.css" Url="Content/font-awesome/css/font-awesome.min.css" />
+    <File Path="Content\font-awesome\font\fontawesome-webfont.eot" Url="Content/font-awesome/font/fontawesome-webfont.eot" />
+    <File Path="Content\font-awesome\font\fontawesome-webfont.svg" Url="Content/font-awesome/font/fontawesome-webfont.svg" />
+    <File Path="Content\font-awesome\font\fontawesome-webfont.ttf" Url="Content/font-awesome/font/fontawesome-webfont.ttf" />
+    <File Path="Content\font-awesome\font\fontawesome-webfont.woff" Url="Content/font-awesome/font/fontawesome-webfont.woff" />
+    <File Path="Content\font-awesome\font\FontAwesome.otf" Url="Content/font-awesome/font/FontAwesome.otf" />
+    <File Path="Content\font-awesome\less\bootstrap.less" Url="Content/font-awesome/less/bootstrap.less" />
+    <File Path="Content\font-awesome\less\core.less" Url="Content/font-awesome/less/core.less" />
+    <File Path="Content\font-awesome\less\extras.less" Url="Content/font-awesome/less/extras.less" />
+    <File Path="Content\font-awesome\less\font-awesome-ie7.less" Url="Content/font-awesome/less/font-awesome-ie7.less" />
+    <File Path="Content\font-awesome\less\font-awesome.less" Url="Content/font-awesome/less/font-awesome.less" />
+    <File Path="Content\font-awesome\less\icons.less" Url="Content/font-awesome/less/icons.less" />
+    <File Path="Content\font-awesome\less\mixins.less" Url="Content/font-awesome/less/mixins.less" />
+    <File Path="Content\font-awesome\less\path.less" Url="Content/font-awesome/less/path.less" />
+    <File Path="Content\font-awesome\less\variables.less" Url="Content/font-awesome/less/variables.less" />
+    <File Path="Content\App.1.0.3.2.min.css" Url="Content/App.1.0.3.2.min.css" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

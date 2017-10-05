@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="a26ea941-df98-44e4-ad27-4f149bd8f271" solutionId="a26ea941-df98-44e4-ad27-4f149bd8f271" resetWebServer="false" sharePointProductVersion="15.0" name="WisePoint.PeopleSearch" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="b55fd3a1-02a4-4fe7-b499-5cdd9e31dfb2" />
+  </features>
+</package>

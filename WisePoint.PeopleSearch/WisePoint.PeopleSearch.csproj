@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B858ECC1-1982-44D8-8A5A-0295ABDD968A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WisePoint.PeopleSearch</RootNamespace>
+    <AssemblyName>WisePoint.PeopleSearch</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetOfficeVersion>15.0</TargetOfficeVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <IncludeAssemblyInPackage>False</IncludeAssemblyInPackage>
+    <ProjectMode>SharePointApp</ProjectMode>
+    <AppFeaturePartId>{3a0a6b8b-9881-48c6-91b1-2b474bd07dac}</AppFeaturePartId>
+    <WspPartId>{b8d10a00-da42-4582-ab74-5dadcc098da0}</WspPartId>
+    <CspkgPartId>{1cc00267-801a-47d1-af9e-781ae3db7973}</CspkgPartId>
+    <SqlPackagePartId>{8ac0a861-0e90-4715-b88f-aab67568998a}</SqlPackagePartId>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <ActiveDeploymentConfiguration>Deploy App for SharePoint</ActiveDeploymentConfiguration>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="Content\App.1.0.3.2.min.css">
+      <DependentUpon>App.1.0.3.2.css</DependentUpon>
+    </Content>
+    <Content Include="Scripts\External\jquery-3.1.1.min.js" />
+    <Content Include="Scripts\External\knockout-3.4.1.js" />
+    <Content Include="Scripts\External\linq.min.js">
+      <DependentUpon>linq.js</DependentUpon>
+    </Content>
+    <Content Include="Scripts\ViewModels\SettingsPage.js" />
+    <Content Include="Scripts\ViewModels\MainPage.js" />
+    <Content Include="Scripts\WisePoint.PeopleSearch.1.0.3.2.js">
+      <DependentUpon>WisePoint.PeopleSearch.1.0.3.2.js.bundle</DependentUpon>
+    </Content>
+    <Content Include="Scripts\WisePoint.PeopleSearch.1.0.3.2.min.js">
+      <DependentUpon>WisePoint.PeopleSearch.1.0.3.2.js</DependentUpon>
+    </Content>
+    <None Include="Content\font-awesome\font\fontawesome-webfont.eot" />
+    <None Include="Content\font-awesome\font\fontawesome-webfont.ttf" />
+    <None Include="Content\font-awesome\font\fontawesome-webfont.woff" />
+    <None Include="Content\font-awesome\font\FontAwesome.otf" />
+    <None Include="Content\font-awesome\less\bootstrap.less" />
+    <None Include="Content\font-awesome\less\core.less" />
+    <None Include="Content\font-awesome\less\extras.less" />
+    <None Include="Content\font-awesome\less\font-awesome-ie7.less" />
+    <None Include="Content\font-awesome\less\font-awesome.less" />
+    <None Include="Content\font-awesome\less\icons.less" />
+    <None Include="Content\font-awesome\less\mixins.less" />
+    <None Include="Content\font-awesome\less\path.less" />
+    <None Include="Content\font-awesome\less\variables.less" />
+    <None Include="packages.config" />
+    <None Include="1.0.3.2\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{c74ab972-9ace-4ab0-ad1a-fe2ba13ea28b}</SharePointProjectItemId>
+    </None>
+    <Content Include="Content\font-awesome\css\font-awesome-ie7.css" />
+    <Content Include="Content\font-awesome\css\font-awesome-ie7.min.css" />
+    <Content Include="Content\font-awesome\css\font-awesome.css" />
+    <Content Include="Content\font-awesome\css\font-awesome.min.css" />
+    <Content Include="Content\font-awesome\font\fontawesome-webfont.svg" />
+    <Content Include="Images\PeopleSearch.96.png">
+      <OpcRelationship>manifest-icon</OpcRelationship>
+    </Content>
+    <Content Include="1.0.3.2\Elements.xml" />
+    <Content Include="1.0.3.2\Default.aspx" />
+    <None Include="Scripts\WisePoint.PeopleSearch.1.0.3.2.min.js.map">
+      <DependentUpon>WisePoint.PeopleSearch.1.0.3.2.min.js</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Scripts\External\linq.min.js.map">
+      <DependentUpon>linq.js</DependentUpon>
+    </None>
+    <None Include="Scripts\WisePoint.PeopleSearch.1.0.3.2.js.bundle" />
+    <None Include="Scripts\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{8ac0a861-0e90-4715-b88f-aab67568998a}</SharePointProjectItemId>
+      <SubType>Designer</SubType>
+    </None>
+    <Content Include="1.0.3.2\Settings.aspx" />
+    <Content Include="Scripts\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Scripts\External\linq.js" />
+    <Content Include="Scripts\Common\Resources.js" />
+    <Content Include="Scripts\Models\RefinerEntry.js" />
+    <Content Include="Scripts\Models\SearchResult.js" />
+    <Content Include="Scripts\Models\RefinerGroup.js" />
+    <Content Include="Scripts\Models\ActiveRefiner.js" />
+    <Content Include="Scripts\Common\WisePoint.Utils.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Content\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{f877795e-6fa0-4bac-b0d2-cc4cc721bca4}</SharePointProjectItemId>
+    </None>
+    <Content Include="Content\Elements.xml" />
+    <Content Include="Content\App.1.0.3.2.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\Elements.xml" />
+    <None Include="Images\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{218117ae-5330-4ac8-9b17-db8cfbc58d6f}</SharePointProjectItemId>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Package\Package.package">
+      <PackageId>{a26ea941-df98-44e4-ad27-4f149bd8f271}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+    <None Include="Features\PeopleSearch\PeopleSearch.feature">
+      <FeatureId>{b55fd3a1-02a4-4fe7-b499-5cdd9e31dfb2}</FeatureId>
+    </None>
+    <None Include="Features\PeopleSearch\PeopleSearch.Template.xml">
+      <DependentUpon>PeopleSearch.feature</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <AppManifestFile Include="AppManifest.xml">
+      <SubType>Designer</SubType>
+    </AppManifestFile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\Resources.resx">
+      <OpcRelationship>content-defaultresource</OpcRelationship>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\Resources.en.resx">
+      <OpcRelationship>content-resource</OpcRelationship>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\Resources.fr.resx">
+      <OpcRelationship>content-resource</OpcRelationship>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\Resources.fr-FR.resx">
+      <OpcRelationship>content-resource</OpcRelationship>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\Resources.en-US.resx">
+      <OpcRelationship>content-resource</OpcRelationship>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\Resources.en-AU.resx">
+      <OpcRelationship>content-resource</OpcRelationship>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\Resources.en-CA.resx">
+      <OpcRelationship>content-resource</OpcRelationship>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\Resources.en-BZ.resx">
+      <OpcRelationship>content-resource</OpcRelationship>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\Resources.en-029.resx">
+      <OpcRelationship>content-resource</OpcRelationship>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\Resources.en-IN.resx">
+      <OpcRelationship>content-resource</OpcRelationship>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\Resources.en-IE.resx">
+      <OpcRelationship>content-resource</OpcRelationship>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\Resources.en-JM.resx">
+      <OpcRelationship>content-resource</OpcRelationship>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\Resources.en-ZW.resx">
+      <OpcRelationship>content-resource</OpcRelationship>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\Resources.en-GB.resx">
+      <OpcRelationship>content-resource</OpcRelationship>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\Resources.en-TT.resx">
+      <OpcRelationship>content-resource</OpcRelationship>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\Resources.en-SG.resx">
+      <OpcRelationship>content-resource</OpcRelationship>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\Resources.en-ZA.resx">
+      <OpcRelationship>content-resource</OpcRelationship>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\Resources.en-PH.resx">
+      <OpcRelationship>content-resource</OpcRelationship>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\Resources.en-MY.resx">
+      <OpcRelationship>content-resource</OpcRelationship>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\Resources.en-NZ.resx">
+      <OpcRelationship>content-resource</OpcRelationship>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\Resources.fr-BE.resx">
+      <OpcRelationship>content-resource</OpcRelationship>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\Resources.fr-CA.resx">
+      <OpcRelationship>content-resource</OpcRelationship>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\Resources.fr-LU.resx">
+      <OpcRelationship>content-resource</OpcRelationship>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\Resources.fr-MC.resx">
+      <OpcRelationship>content-resource</OpcRelationship>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\Resources.fr-CH.resx">
+      <OpcRelationship>content-resource</OpcRelationship>
+    </Content>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '11.0'">11.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+</Project>

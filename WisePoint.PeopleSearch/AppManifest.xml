@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--Created:cb85b80c-f585-40ff-8bfc-12ff4d0e34a9-->
+<App xmlns="http://schemas.microsoft.com/sharepoint/2012/app/manifest"
+     Name="WisePointPeopleSearch"
+     ProductID="{c74ab972-9ace-4ab0-ad1a-fe2ba13ea28b}"
+     Version="1.0.3.2"
+     SharePointMinVersion="15.0.0.0"
+>
+  <Properties>
+    <Title>WisePoint People Search</Title>
+    <StartPage>~appWebUrl/1.0.3.2/Default.aspx?{StandardTokens}</StartPage>
+    <SupportedLocales>
+      <SupportedLocale CultureName="en" />
+      <SupportedLocale CultureName="fr-FR" />
+      <SupportedLocale CultureName="en-US" />
+      <SupportedLocale CultureName="en-AU" />
+      <SupportedLocale CultureName="en-CA" />
+      <SupportedLocale CultureName="en-BZ" />
+      <SupportedLocale CultureName="en-029" />
+      <SupportedLocale CultureName="en-IN" />
+      <SupportedLocale CultureName="en-IE" />
+      <SupportedLocale CultureName="en-JM" />
+      <SupportedLocale CultureName="en-ZW" />
+      <SupportedLocale CultureName="en-GB" />
+      <SupportedLocale CultureName="en-TT" />
+      <SupportedLocale CultureName="en-SG" />
+      <SupportedLocale CultureName="en-ZA" />
+      <SupportedLocale CultureName="en-PH" />
+      <SupportedLocale CultureName="en-MY" />
+      <SupportedLocale CultureName="en-NZ" />
+      <SupportedLocale CultureName="fr" />
+      <SupportedLocale CultureName="fr-BE" />
+      <SupportedLocale CultureName="fr-CA" />
+      <SupportedLocale CultureName="fr-LU" />
+      <SupportedLocale CultureName="fr-MC" />
+      <SupportedLocale CultureName="fr-CH" />
+    </SupportedLocales>
+  </Properties>
+
+  <AppPrincipal>
+    <Internal />
+  </AppPrincipal>
+  <AppPermissionRequests>
+    <AppPermissionRequest Scope="http://sharepoint/search" Right="QueryAsUserIgnoreAppPrincipal" />
+  </AppPermissionRequests>
+  <AppPrerequisites>
+    <AppPrerequisite Type="Capability" ID="132084D8-5DA6-4EAB-A636-3ADF44151846" />
+    <AppPrerequisite Type="Capability" ID="A83C8D70-71DE-4260-9FB8-677418EB47F2" />
+  </AppPrerequisites>
+</App>

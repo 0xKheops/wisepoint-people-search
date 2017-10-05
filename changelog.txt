@@ -1,0 +1,25 @@
+1.0.3.2
+- fixed error that could occur on chrome and firefox
+- support for add-in upgrade from earlier versions
+
+1.0.3.1
+- fixed image loading error
+- In Office 365, external users not shown anymore by default
+- People without firstname/lastname will be displayed using their PreferredName property. If sort is enabled, they will be shown at the end of the result set.
+
+1.0.3.0 :
+- Improved for Office 365
+- Customizable refiners
+- Customizable result source
+- Bug fixes
+- Performance improvements
+
+1.0.2.0 :
+- Internet Explorer 11 support
+
+1.0.1.0 :
+- display of high definition photos in search results by default
+- wildcard isn't appended by default anymore
+- fixed the high definition photos resizing issue that was occuring when not using image renditions
+- support for k= in query string so the add-in can be called from a native SharePoint search box
+- ability to change the add-in title and the main page's title from the settings screen

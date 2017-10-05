@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="Scripts\" Type="ElementManifest" />
+    <ProjectItemFile Source="External\linq.min.js" Target="Scripts\External\" Type="ElementFile" />
+    <ProjectItemFile Source="Common\Resources.js" Target="Scripts\Common\" Type="ElementFile" />
+    <ProjectItemFile Source="Common\WisePoint.Utils.js" Target="Scripts\Common\" Type="ElementFile" />
+    <ProjectItemFile Source="Models\ActiveRefiner.js" Target="Scripts\Models\" Type="ElementFile" />
+    <ProjectItemFile Source="Models\RefinerEntry.js" Target="Scripts\Models\" Type="ElementFile" />
+    <ProjectItemFile Source="Models\RefinerGroup.js" Target="Scripts\Models\" Type="ElementFile" />
+    <ProjectItemFile Source="Models\SearchResult.js" Target="Scripts\Models\" Type="ElementFile" />
+    <ProjectItemFile Source="ViewModels\MainPage.js" Target="Scripts\ViewModels\" Type="ElementFile" />
+    <ProjectItemFile Source="ViewModels\SettingsPage.js" Target="Scripts\ViewModels\" Type="ElementFile" />
+    <ProjectItemFile Source="External\knockout-3.4.1.js" Target="Scripts\External\" Type="ElementFile" />
+    <ProjectItemFile Source="External\jquery-3.1.1.min.js" Target="Scripts\External\" Type="ElementFile" />
+    <ProjectItemFile Source="WisePoint.PeopleSearch.1.0.3.2.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="WisePoint.PeopleSearch.1.0.3.2.min.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="WisePoint.PeopleSearch.1.0.3.2.min.js.map" Target="Scripts\" Type="ElementFile" />
+  </Files>
+</ProjectItem>

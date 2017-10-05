@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Scripts">
+    <File Path="Scripts\External\linq.min.js" Url="Scripts/External/linq.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\Models\ActiveRefiner.js" Url="Scripts/Models/ActiveRefiner.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\Models\RefinerEntry.js" Url="Scripts/Models/RefinerEntry.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\Models\RefinerGroup.js" Url="Scripts/Models/RefinerGroup.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\Models\SearchResult.js" Url="Scripts/Models/SearchResult.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\ViewModels\MainPage.js" Url="Scripts/ViewModels/MainPage.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\ViewModels\SettingsPage.js" Url="Scripts/ViewModels/SettingsPage.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\Common\Resources.js" Url="Scripts/Common/Resources.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\Common\WisePoint.Utils.js" Url="Scripts/Common/WisePoint.Utils.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\External\knockout-3.4.1.js" Url="Scripts/External/knockout-3.4.1.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\External\jquery-3.1.1.min.js" Url="Scripts/External/jquery-3.1.1.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\WisePoint.PeopleSearch.1.0.3.2.js" Url="Scripts/WisePoint.PeopleSearch.1.0.3.2.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\WisePoint.PeopleSearch.1.0.3.2.min.js" Url="Scripts/WisePoint.PeopleSearch.1.0.3.2.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\WisePoint.PeopleSearch.1.0.3.2.min.js.map" Url="Scripts/WisePoint.PeopleSearch.1.0.3.2.min.js.map" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

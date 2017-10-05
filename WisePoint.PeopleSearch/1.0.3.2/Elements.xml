@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="1.0.3.2">
+    <File Path="1.0.3.2\Default.aspx" Url="1.0.3.2/Default.aspx" />
+    <File Path="1.0.3.2\Settings.aspx" Url="1.0.3.2/Settings.aspx" />
+  </Module>
+</Elements>
