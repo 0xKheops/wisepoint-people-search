@@ -14,3 +14,5 @@ Features :
 * state of the art respect of SharePoint UI and themes
 * fully localized in both English and French
 * Tested on SharePoint 2013 and SharePoint Online
+
+Published on SharePoint store : https://appsource.microsoft.com/en-us/product/office/wa104128232
