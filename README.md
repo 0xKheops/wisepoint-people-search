@@ -11,7 +11,7 @@ Features :
 * infinite scrolling through search results
 * automatic wildcard append
 * use of built-in refiners
-* state of the art respect of SharePoint UI and themes
+* inherits theme from parent site
 * fully localized in both English and French
 * Tested on SharePoint 2013 and SharePoint Online
 
